@@ -1,5 +1,5 @@
 #index-background {
-  background-image: url(http://images.boomsbeat.com/data/images/full/3198/norway-fjord_4-jpg.jpg);
+  background-image: url(../image/background.jpg);
   background-size: cover;
    height: 100%;
    width: 100%;
@@ -24,24 +24,35 @@ justify-content: center;
 blockquote {
   background-color: lightgrey;
   width: 35%;
+  border: 2px solid black;
+  border-radius: 12px;
 }
 
 body {
   font-family: 'Arvo', serif;
 }
 
-.col-sm-5 {
+/*.col-sm-5 {
   background-color: rgba(166, 166, 166, 0.8);
   color: white;
   text-shadow: black -1px 1px;
   margin-bottom: 10px;
   width: 50%;
+}*/
 
+.well {
+  background-color: rgba(166, 166, 166, 0.8);
+  color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-shadow: black -1px 1px;
 }
 
 h3 {color: #333333;
   text-align: center;
 }
 
-* {border: 1px solid black;
-}
+/** {border: 1px solid black;
+}*/
+
+/*media query to keep it centered at low width*/
