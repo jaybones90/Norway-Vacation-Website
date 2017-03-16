@@ -20,3 +20,8 @@
   width: 35%;
 justify-content: center;
 }
+
+blockquote {
+  background-color: lightgrey;
+  width: 35%;
+}
